@@ -1,0 +1,19 @@
+
+    .movie-container .movies-grid {
+        display: grid;
+        grid-template-load-more: repeat(auto-fit, minmax(333.33px, 1fr));
+    }
+    
+    .movie-container .movies-grid .movie-card {
+    
+        display: none;
+    }
+    
+    .movie-container .movies-grid .movie-card:hover .load-more5 {
+        box-shadow: 0 0 20px rgba(0,0,0,.3);
+    }
+    
+    .movie-container .movies-grid .movie-card .load-more4 {
+    
+    }
+    
